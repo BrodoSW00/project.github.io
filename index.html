@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset ="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+	<title>Page Title</title>
+	<link rel="stylesheet" href="styles.css">
+	
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+	<div class="container">
+		<!-- <div class="header"> HEADER</div> -->
+		
+		<div class = "main" id ='m1'>
+			
+			<div class = "navbar"> 
+				<div class="logo">LOGO</div>
+				<div class = "links"> 
+					<a href="#">Acasa</a>
+					<a href="#">Oferte</a>
+					<a href="contact.html"> Contact</a>
+					
+				</div>
+				<div class="nRes">
+					<input type="checkbox" id='menu'/>
+					<label for="menu"><img src="img/menu.svg"></label>	
+				</div>
+			</div>
+
+			
+			<div class="searchContainer">
+				
+				<div class="searchTitle"> Cautare rapida: </div>
+				
+				<div class ="searchBox"> 
+					<form action="" class="tTypeForm">
+						<div class="new noselect">Tip Tranzactie</div>
+						<div class="optionContainer transType inactive">
+							
+							<div class="option">
+								<input type="radio" id="buy" name="tTrans"/>
+								<label for="buy">Cumparare</label>
+							</div>
+
+							<div class="option">
+								<input type="radio" id="rent" name="tTrans"/>
+								<label for="rent">Inchiriere</label>
+							</div>
+						</div>
+					</form>
+					<form action="" class="pTypeForm">
+						<div class="new noselect">Tip Proprietate</div>
+						<div class="optionContainer propType inactive">
+							
+							<div class="option">
+								<input type="radio" id="ap" name="tProp"/>
+								<label for="ap">Apartament</label>
+							</div>
+
+							<div class="option">
+								<input type="radio" id="cv" name="tProp"/>
+								<label for="cv">Casa / Vila</label>
+							</div>
+							<div class="option">
+								<input type="radio" id="land" name="tProp"/>
+								<label for="land">Teren</label>
+							</div>
+						</div>
+					</form>
+					
+					<form action="" class="cityForm">
+						<div class="new noselect">Oras</div>
+						<div class="optionContainer city inactive">
+							
+							<div class="option">
+								<input type="radio" id="bucuresti" name="tCity"/>
+								<label for="buc">Bucuresti</label>
+							</div>
+
+							<div class="option">
+								<input type="radio" id="brasov" name="tTrans"/>
+								<label for="brasov">Brasov</label>
+							</div>
+						</div>
+					</form>
+					<div class ="searchButton">
+						<a href="#" class="sBtn"> Cauta </a>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+			<div class="sideBar hide"> 
+				<div class = "links"> 
+					<a href="#">Acasa</a>
+					<a href="#">Oferte</a>
+					<a href="contact.html">Contact</a>
+					
+				</div>
+			</div>
+					  
+		</div>
+		<div class = "main" id='m2'>
+			<div class="ofTitle">
+				Oferte Recente: 
+			</div>
+	</div>
+			
+		
+	<script src="main.js"></script>
+</body>
+</html>
